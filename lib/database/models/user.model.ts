@@ -1,6 +1,5 @@
 import { Schema, model, models } from "mongoose";
 
-
 const UserChema = new Schema({
     clerkId: {type: String , required: true, unique: true },
     email: {type: String, required: true, unique: true },
